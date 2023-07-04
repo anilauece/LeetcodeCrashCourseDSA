@@ -1,0 +1,2 @@
+Time complexity: Amount of time algorithm needs to run relative to input size.
+Space complexity: Amount of memory allocated by the algorithm when run relative to the input size.
