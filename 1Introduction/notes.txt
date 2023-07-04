@@ -35,3 +35,39 @@ for (int num: arr) {        -> O(n)
 }
 Total Time complexity: O(n*n) = O(n^2)
 
+eg4:
+// Given integer arrays "arr" with length n and "arr2" with length m,
+
+for (int num: arr) {    -> O(n)
+    print(num)
+}
+
+for (int num: arr) {    -> O(n)
+    print(num)
+}
+
+for (int num: arr2) {    ->O(m)
+    print(num)
+}
+
+Total time complexity: O(n+n+m) = O(2n+m) = O(n+m)
+
+eg5:
+// Given an integer array "arr" with length n,
+
+for (int i = 0; i < arr.length; i++) {
+    for (int j = i; j < arr.length; j++) {
+        print(arr[i] + arr[j])
+    }
+}
+
+The inner for loop is dependent on what iteration the outer for loop is currently on.
+First time, inner for loop runs n times.
+Second time, inner for loop runs n-1 times.
+Third time, inner for loop runs n-2 times and so on.
+
+Total iterations = 1+2+..+n = n(n+1)/2 = O(n^2)
+
+Note: Time complexity for efficient sorting algorithms: O(nlogn)
+Note: Base of the logarithm doesn't actually matter for big O, since all logarithms are related by a constant factor.
+
