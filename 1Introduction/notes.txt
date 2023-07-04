@@ -1,2 +1,37 @@
 Time complexity: Amount of time algorithm needs to run relative to input size.
 Space complexity: Amount of memory allocated by the algorithm when run relative to the input size.
+
+What we want to focus on is how an algorithm scales with the input size.
+
+When talking about complexity, there are normally three cases:
+a. Best case scenario
+b. Average case
+c. Worst case scenario
+
+It is most correct to use the worst case scenario, but you should be able to talk about the difference between the cases.
+
+Time complexity example:
+// Given an integer array "arr" with length n,
+for (int num: arr) {
+    print(num)
+}
+It has time complexity O(n)
+-> In each for loop iteration, we are performing print which costs O(1)
+-> For loop iterates n times, which gives time-complexity O(1.n) = O(n)
+
+eg2:
+for (int num: arr) {  ----> Iterates n times
+    for (int i = 0; i < 500,000; i++) {  -> Iterates 500,000 times
+        print(num)                       -> Time complexity: O(1)
+    }
+}
+Total Time complexity: O(500,000*n) = O(n)
+
+eg3:
+for (int num: arr) {        -> O(n)
+    for (int num2: arr) {   -> O(n)
+        print(num * num2)   -> Time complexity: O(1)
+    }
+}
+Total Time complexity: O(n*n) = O(n^2)
+
