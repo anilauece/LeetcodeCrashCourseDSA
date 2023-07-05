@@ -70,4 +70,54 @@ Total iterations = 1+2+..+n = n(n+1)/2 = O(n^2)
 
 Note: Time complexity for efficient sorting algorithms: O(nlogn)
 Note: Base of the logarithm doesn't actually matter for big O, since all logarithms are related by a constant factor.
+eg: logN of base b = logN/logb = O(logN)
 
+                    Space Complexity
+-> Never count space used by input unless asked by interviewer.
+-> Never count space used by output unless asked by interviewer.
+
+-> Count only memory what code allocates
+eg:
+// Given an integer array "arr" with length n
+
+for (int num: arr) {
+    print(num)
+}
+Space complexity: O(1), only space allocated is num which is constant relative to n.
+
+eg2:
+// Given an integer array "arr" with length n
+
+Array doubledNums = int[]
+
+for (int num: arr) {
+    doubledNums.add(num * 2)
+}
+
+Space complexity: O(n). Array 'doubledNums' store n integers at end of algorithm.
+
+eg3:
+// Given an integer array "arr" with length n
+
+Array nums = int[]
+int oneHundredth = n / 100
+
+for (int i = 0; i < oneHundredth; i++) {
+    nums.add(arr[i])
+}
+Space complexity: nums[] store 1% of numbers in arr[]. So, O(n/100) = O(n)
+
+eg4:
+// Given integer arrays "arr" with length n and "arr2" with length m,
+
+Array grid = int[n][m]
+
+for (int i = 0; i < arr.length; i++) {
+    for (int j = 0; j < arr2.length; j++) {
+        grid[i][j] = arr[i] * arr2[j]
+    }
+}
+
+Space complexity: O(n.m) We are creating grid that has dimensions n.m
+
+                                        Recursion
