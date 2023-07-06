@@ -1,1 +1,1 @@
-
+Arrays and Strings: Both are ordered collection of elements that can be iterated over.
