@@ -125,6 +125,7 @@ Any iterative algorithm can be written recursively.
 Note: We need base condition for every recursive function to stop.
 An important thing to understand about recursion is the order in which the code runs - the order in which the computer executes instructions.
 
+eg: Evaluate the flow of execution for
 function fn(i):
   if i > 3:
     return
@@ -136,3 +137,4 @@ function fn(i):
 
 fn(1)
 
+Where recursion shines is when you use it to break down a problem into "subproblems", whose solutions can then be combined to solve the original problem.
