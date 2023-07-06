@@ -138,3 +138,31 @@ function fn(i):
 fn(1)
 
 Where recursion shines is when you use it to break down a problem into "subproblems", whose solutions can then be combined to solve the original problem.
+eg: Fibonacci numbers
+Fn = Fn-1 + Fn-2
+
+function F(n):
+    if n <= 1:
+        return n
+
+    oneBack = F(n - 1)
+    twoBack = F(n - 2)
+    return oneBack + twoBack
+
+F(0) = 0, F(1) = 1
+
+eg: Find F(3)
+
+oneBack = F(2)
+    oneBack = F(1)
+        F(1) = 1
+    twoBack = F(0)
+        F(0) = 0
+    F(2) = oneBack + twoBack = 1
+twoBack = F(1)
+    F(1) = 1
+F(3) = oneBack + twoBack = 2
+
+F(3) can be broken down into 2 sub-problems: F(2) and F(1). Combinining solutions of F(2) and F(1) we can get F(3).
+By determining the base cases and a recurrence relation, we can easily implement the function
+
