@@ -125,3 +125,14 @@ Any iterative algorithm can be written recursively.
 Note: We need base condition for every recursive function to stop.
 An important thing to understand about recursion is the order in which the code runs - the order in which the computer executes instructions.
 
+function fn(i):
+  if i > 3:
+    return
+
+  print(i)
+  fn(i + 1)
+  print(f"End of call where i = {i}")
+  return
+
+fn(1)
+
