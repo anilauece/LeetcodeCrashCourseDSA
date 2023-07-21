@@ -12,3 +12,4 @@ C++ -> std:: vector
                 Strings
 Python, Java -> Immutable
 C++   -> Mutable
+Note: It's important to know the details behind arrays and strings for the language you plan on using in interviews.
