@@ -10,5 +10,13 @@ def check_if_palindrome(s):
     
     return True
 
+# Odd length strings
+print(check_if_palindrome("racecar")) # True
+print(check_if_palindrome("aslkd"))   # False
+
+# Even length strings
+print(check_if_palindrome("basdab"))   # False
+print(check_if_palindrome("abassaba")) # True
+
 # Time-complexity : O(n)
 # Space complexity: O(1)
