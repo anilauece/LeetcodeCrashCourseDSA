@@ -30,3 +30,5 @@ Immutable: A type of data that cannot be changed. If you want to change somethin
 -----------------------------------------------------------------
 
 *O(1) -> Amortized O(1) (or) O(1) is average number of operations
+
+We will discuss most commonly used techniques in arrays and strings.
