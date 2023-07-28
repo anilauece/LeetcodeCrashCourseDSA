@@ -9,3 +9,6 @@ def check_if_palindrome(s):
         right -= 1
     
     return True
+
+# Time-complexity : O(n)
+# Space complexity: O(1)
