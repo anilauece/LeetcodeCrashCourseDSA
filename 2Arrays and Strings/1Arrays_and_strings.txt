@@ -5,8 +5,9 @@ eg: arr = [] (initialization)
 -> We can use any data-type in lists, no need to worry about size.
 -> No need to mention the size.
 
-C++ -> std:: vector
--> Specify the size
+C++ -> Specify array type and data-size during initialization
+
+std:: vector: Similar to lists in C++
 -> Specify the data-type of array during initialization.
 
                 Strings
