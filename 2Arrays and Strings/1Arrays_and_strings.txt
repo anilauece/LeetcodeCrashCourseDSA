@@ -5,7 +5,7 @@ eg: arr = [] (initialization)
 -> We can use any data-type in lists, no need to worry about size.
 -> No need to mention the size.
 
-C++ -> Specify array type and data-size during initialization
+C++ -> Specify array data-type and array size during initialization
 
 std:: vector: Similar to lists in C++
 -> Specify the data-type of array during initialization.
@@ -14,3 +14,19 @@ std:: vector: Similar to lists in C++
 Python, Java -> Immutable
 C++   -> Mutable
 Note: It's important to know the details behind arrays and strings for the language you plan on using in interviews.
+Mutable: a type of data that can be changed.
+Immutable: A type of data that cannot be changed. If you want to change something immutable, you will need to recreate the entire thing.
+
+----------------------------------------------------------------
+|        Operation           | Array/List    | String(Immutable)|
+-----------------------------------------------------------------
+| Appending to end           |   *O(1)       |      O(n)        |
+| Popping from end           |    O(1)       |      O(n)        |
+| Insertion, not from end    |    O(n)       |      O(n)        |
+| Deletion, not from end     |    O(n)       |      O(n)        |
+| Modifying an element       |    O(1)       |      O(n)        |
+| Random access              |    O(1)       |      O(1)        |
+| Checking if element exists |    O(n)       |      O(n)        |
+-----------------------------------------------------------------
+
+*O(1) -> Amortized O(1) (or) O(1) is average number of operations
