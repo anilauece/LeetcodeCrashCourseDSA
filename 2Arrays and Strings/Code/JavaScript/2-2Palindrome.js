@@ -26,5 +26,8 @@ console.log(checkIfPalindrome("aslkd")); // prints false
 console.log(checkIfPalindrome("basdab")); // prints false
 console.log(checkIfPalindrome("abassaba")); // prints true
 
+// Compilation steps:
+// node 2-2Palindrome.js
+
 // Time-complexity : O(n)
 // Space complexity: O(1)
