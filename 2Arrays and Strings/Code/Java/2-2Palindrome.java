@@ -19,14 +19,13 @@ class Solution {
 class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-		    /* Odd length strings */
-      
+	/* Odd length strings */
         System.out.println(solution.checkIfPalindrome("racecar")); // prints true
-		    System.out.println(solution.checkIfPalindrome("aslkd")); // prints false
+	System.out.println(solution.checkIfPalindrome("aslkd")); // prints false
 		
-		    /* Even length strings */
-		    System.out.println(solution.checkIfPalindrome("basdab")); // prints false
-		    System.out.println(solution.checkIfPalindrome("abassaba")); // prints true
+	/* Even length strings */
+	System.out.println(solution.checkIfPalindrome("basdab")); // prints false
+	System.out.println(solution.checkIfPalindrome("abassaba")); // prints true
     }
 };
 
