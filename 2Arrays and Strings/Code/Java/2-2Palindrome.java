@@ -32,3 +32,6 @@ class Main {
 /* Compilation steps */
 // javac 2-2Palindrome.java
 // java Main
+
+// Time-complexity : O(n)
+// Space complexity: O(1)
