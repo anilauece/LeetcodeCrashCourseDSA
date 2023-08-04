@@ -29,3 +29,7 @@ class Main {
 		    System.out.println(solution.checkIfPalindrome("abassaba")); // prints true
     }
 };
+
+/* Compilation steps */
+// javac 2-2Palindrome.java
+// java Main
