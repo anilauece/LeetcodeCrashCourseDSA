@@ -52,4 +52,15 @@ pairing it with the smallest number (that we haven't already ruled out), yet the
 So we move to the next largest number, which is the 21.
 
 Finally, we have 6 + 21 = 27, and we have found our target.
+
+Algorithm:
+----------
+
+To implement this algorithm, we use a similar process as in the previous palindrome example.
+
+We use a while loop until the pointers meet each other. If at any point the sum is equal to the target, 
+we can return true. 
+
+If the pointers meet each other, it means we went through the entire input without finding target, so we return false.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
