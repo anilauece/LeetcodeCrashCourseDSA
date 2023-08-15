@@ -22,15 +22,17 @@ bool checkForTarget(vector<int>& nums, int target) {
     return false;
 }
 
-int main() {
+int main()
+{
     vector<int> s = {1, 2, 4, 6, 8, 9, 14, 15};
     printf("%d\n", checkForTarget(s, 13));  // true
 
-	s = {3, 6, 21, 23, 25};
-	printf("%d\n", checkForTarget(s, 27)); // true
+    s = {3, 6, 21, 23, 25};
+    printf("%d\n", checkForTarget(s, 27)); // true
 
     s = {1, 4, 7, 12, 16};
-	printf("%d\n", checkForTarget(s, 15)); // false
+    printf("%d\n", checkForTarget(s, 15)); // false
+    
     return 0;
 }
 
