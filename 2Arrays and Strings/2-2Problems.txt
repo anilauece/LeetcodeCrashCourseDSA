@@ -31,3 +31,10 @@ we can return true.
 If the pointers meet each other, it means we went through the entire input without finding target, so we return false.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example 3: Given two "sorted" integer arrays arr1 and arr2, return a new array that combines both of them and is also sorted.
+
+Algorithm:
+----------
+We can build the answer array ans one element at a time. Start two pointers at the first index of each array, and compare their elements. 
+At each iteration, we have 2 values. Whichever value is lower needs to come first in the answer, so add it to the answer and move the respective pointer.
+
