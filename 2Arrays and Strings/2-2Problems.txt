@@ -51,6 +51,8 @@ Given two strings s and t, return true if s is a subsequence of t, or false othe
 A subsequence of a string is a sequence of characters that can be obtained by deleting some (or none) of the characters 
 from the original string, while maintaining the relative order of the remaining characters.
 
+In this problem, we need to check if the characters of s appear in the same order in t, with gaps allowed.
+
 Example:
 "ace" is subsequence of "abcde"
 "aec" is not a subsequence of "abcde"
