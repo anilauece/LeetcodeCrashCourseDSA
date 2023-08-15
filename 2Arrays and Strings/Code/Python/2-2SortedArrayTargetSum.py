@@ -20,3 +20,6 @@ print(check_for_target([1, 2, 4, 6, 8, 9, 14, 15], 13)) # true
 print(check_for_target([3, 6, 21, 23, 25], 27)) # true
 
 print(check_for_target([1, 4, 7, 12, 16], 15)) # false
+
+# Time-complexity : O(n)
+# Space complexity: O(1)
