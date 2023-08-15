@@ -1,7 +1,9 @@
 Example 1: 
 Given a string s, return true if it is a palindrome, false otherwise.
 
-A string is a palindrome if it reads the same forward as backward. That means, after reversing it, it is still the same string. For example: "abcdcba", or "racecar".
+A string is a palindrome if it reads the same forward as backward. That means, after reversing it, it is still the same string. 
+
+For example: "abcdcba", or "racecar".
 
 Hint:
 -----
@@ -10,7 +12,7 @@ To check the next pair of characters, we just need to move our pointers toward e
 We continue until 
 a. The pointers meet each other (or)
 b. We find a mismatch.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Example 2:
 Given a sorted array of unique integers and a target integer, return true if there exists a pair of numbers that sum to target, false otherwise.
 This problem is similar to Two Sum. (In Two Sum, the input is not sorted).
@@ -30,7 +32,7 @@ we can return true.
 
 If the pointers meet each other, it means we went through the entire input without finding target, so we return false.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Example 3: Given two "sorted" integer arrays arr1 and arr2, return a new array that combines both of them and is also sorted.
 
 Algorithm:
