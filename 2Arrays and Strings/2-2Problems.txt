@@ -40,3 +40,6 @@ Algorithm:
 We can build the answer array ans one element at a time. Start two pointers at the first index of each array, and compare their elements. 
 At each iteration, we have 2 values. Whichever value is lower needs to come first in the answer, so add it to the answer and move the respective pointer.
 
+For example, num1 = [1, 4, 7, 20], num2 = [3, 5, 6]
+Output = [1, 3, 4, 5, 6, 7, 20]
+
