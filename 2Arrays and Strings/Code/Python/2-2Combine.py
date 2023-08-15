@@ -32,3 +32,4 @@ print(combine([5,6,8,9], [1, 2, 4])) # [1,2,4,5,6,8,9]
 ## m: length of array 2
 
 # Space-complexity: O(1)
+# Note: We usually don't count the output as extra space.
