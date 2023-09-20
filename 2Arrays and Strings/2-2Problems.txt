@@ -1,4 +1,4 @@
-Example 1: 
+Example 1: Palindrome
 Given a string s, return true if it is a palindrome, false otherwise.
 
 A string is a palindrome if it reads the same forward as backward. That means, after reversing it, it is still the same string. 
@@ -13,7 +13,7 @@ We continue until
 a. The pointers meet each other (or)
 b. We find a mismatch.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Example 2:
+Example 2: Sorted Array Target Sum
 Given a sorted array of unique integers and a target integer, return true if there exists a pair of numbers that sum to target, false otherwise.
 This problem is similar to Two Sum. (In Two Sum, the input is not sorted).
 
@@ -59,3 +59,14 @@ Example:
 "aec" is not a subsequence of "abcde"
 "abc" is subsequence of "ahbgdc"
 "axc" is not a subsequence of "ahbgdc"
+
+Algorithm(hint):
+----------------
+Take 1 left pointer at beginning of "ace", another left pointer at beginning of "abcde"
+
+Follow-up(substring):  a is substring of b
+---------------------
+if a in b: --> python; returns True
+strstr(a, b) -> C; returns True
+
+For O(n) time complexity, use KMP or Rabin-karp algorithm. You will learn them later
