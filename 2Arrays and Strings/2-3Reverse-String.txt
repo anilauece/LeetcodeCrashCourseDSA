@@ -9,5 +9,5 @@ Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 
 Hint:
-Use 2 pointer approach, one at beginning of string, other at end.
+Use 2 pointer approach: One at beginning of string, other at end.
 
