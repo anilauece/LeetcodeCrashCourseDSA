@@ -66,7 +66,7 @@ Take 1 left pointer at beginning of "ace", another left pointer at beginning of 
 
 Follow-up(substring):  a is substring of b
 ---------------------
-if a in b: --> python; returns True
-strstr(a, b) -> C; returns True
+if a in b: --> python; O(n) where n is length of string b.
+strstr(a, b) -> C; O(m*n) if m is length of string a, n is length of string b.
 
 For O(n) time complexity, use KMP or Rabin-karp algorithm. You will learn them later
